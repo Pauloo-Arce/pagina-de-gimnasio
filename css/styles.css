@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Catamaran', sans-serif imo !important;
+}
+
+/*Estilos Boostrap*/
+.bg-primary {
+  background: #ff6d2d !important;
+}
+
+.btn-info {
+  background: #fff;
+  border: 0;
+  color: #ff6d2d;
+}
+
+.btn-info:hover {
+  background: #000;
+  color: white;
+}
+
+.btn-primary {
+  background: #ff6d2d;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background: #dbdbdb;
+  border: 0;
+  color: #ff6d2d;
+}
+
+.text-primary {
+  color: #ff6d2d !important;
+}
+
+/* Clases Útiles*/
+.pt-6 {
+  padding-top: 120px;
+}
+
+.py-6 {
+  padding: 80px 0;
+}
+
+/* Encabezado */
+.header {
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.header .row {
+  --bs-gutter-x: 0;
+}
+
+ /* Clases del gym*/ 
+.classes {
+  background: url(../images/background-secondary.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #444;
+  font-weight: bold;
+}
